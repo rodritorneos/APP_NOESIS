@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/lesson.dart';
 
 class FavoritesService {
-  static const String baseUrl = 'http://localhost:8000';
+  static const String baseUrl = 'https://backend-noesis.onrender.com';
 
   // Obtener favoritos del usuario
   static Future<List<Lesson>> getFavorites(String userEmail) async {

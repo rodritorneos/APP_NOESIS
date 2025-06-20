@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class VisitsService {
-  static const String baseUrl = 'http://localhost:8000';
+  static const String baseUrl = 'https://backend-noesis.onrender.com';
 
   // Registrar una visita a una clase
   static Future<bool> registerVisit(String userEmail, String claseId) async {
